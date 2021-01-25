@@ -5,13 +5,13 @@ export const menuItems =[
         cName:'nav-links'
     },
     {
-        title:'Gallery',
-        url:'/gallery',
+        title:'Products',
+        url:'/products',
         cName:'nav-links'
     },
     {
-        title:'Products',
-        url:'/products',
+        title:'Gallery',
+        url:'/gallery',
         cName:'nav-links'
     },
     {
@@ -22,6 +22,6 @@ export const menuItems =[
     {
         title:'Sign Up',
         url:'/sign',
-        cName:'nav-links'
+        cName:'nav-links-mobile'
     },
 ]

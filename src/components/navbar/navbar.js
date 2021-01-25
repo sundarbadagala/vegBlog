@@ -16,7 +16,7 @@ function Navbar() {
             <div className={clicked? 'nav-menu active':'nav-menu'}>
             <ul className='menu-list'>
             {
-                menuItems.map((item, index )=> <li key={index} className='menu-items'><Link to={item.url} className={item.cName}>{item.title}</Link></li>)
+                menuItems.map((item, index )=> <li key={index} className='menu-items' onClick={()=>setClicked(false)}><Link to={item.url} className={item.cName}>{item.title}</Link></li>)
             }
             </ul>
             </div>
