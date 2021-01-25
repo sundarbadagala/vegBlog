@@ -1,0 +1,38 @@
+.nav-main{
+    background: linear-gradient(90deg, rgb(0,0,0)0%, rgb(0,0,0)100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.nav-logo{
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu-logo{
+    color: #ffffff;
+    display: none;
+}
+.nav-menu{
+    /* border: 1px solid white; */
+    color: #ffffff;
+    display: grid;
+    width: 75%;
+}
+.menu-list{
+    list-style-type: none ;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: flex-end;
+    align-items: center;
+    grid-gap: 40px;    
+}
+.nav-links{
+    text-decoration: none;
+    color: #ffffff;
+}
