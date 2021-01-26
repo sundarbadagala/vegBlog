@@ -92,6 +92,13 @@ export const images=[
         category:'root',
     },
     {
+        title:'Drumstick (Murungakkai)',
+        price:60,
+        description:'Red Onions ',
+        banner:'https://falconfresh.com/5597-large_default/drumstick-online-delivery-dubai.jpg',
+        category:'kaya',
+    },
+    {
         title:'Coriander Leaves (Kothamalli)',
         price:20,
         description:'Red Onions ',
@@ -104,20 +111,6 @@ export const images=[
         description:'Red Onions ',
         banner:'https://www.lima-europe.eu/wp-content/uploads/2017/04/Cucumber.jpg',
         category:'kaya',
-    },
-    {
-        title:'Drumstick (Murungakkai)',
-        price:60,
-        description:'Red Onions ',
-        banner:'https://falconfresh.com/5597-large_default/drumstick-online-delivery-dubai.jpg',
-        category:'kaya',
-    },
-    {
-        title:'Ginger (Inji)',
-        price:40,
-        description:'Red Onions ',
-        banner:'https://www.thespruceeats.com/thmb/QxqFC_PtR8hR7I9-tsCB3S9b7R8=/2128x1409/filters:fill(auto,1)/GettyImages-116360266-57fa9c005f9b586c357e92cd.jpg',
-        category:'root',
     },
     {
         title:'Green Chili (Pachai Milagai)',
@@ -141,6 +134,13 @@ export const images=[
         category:'root',
     },
     {
+        title:'Ginger (Inji)',
+        price:40,
+        description:'Red Onions ',
+        banner:'https://www.thespruceeats.com/thmb/QxqFC_PtR8hR7I9-tsCB3S9b7R8=/2128x1409/filters:fill(auto,1)/GettyImages-116360266-57fa9c005f9b586c357e92cd.jpg',
+        category:'root',
+    },
+    {
         title:'Ladies Finger (Vendakkai)',
         price:35,
         description:'Red Onions ',
@@ -155,13 +155,6 @@ export const images=[
         category:'Leaves',
     },
     {
-        title:'Onion (Vengayam)',
-        price:25,
-        description:'Red Onions ',
-        banner:'https://www.nydailynews.com/resizer/BTX_xK-CVPTWFJFaQ8_tKBpqRfM=/1200x0/center/bottom/cloudfront-us-east-1.images.arcpublishing.com/tronc/YKLWDFKDVVCNHHB3DAYOOFLG7I.jpg',
-        category:'root',
-    },
-    {
         title:'Onion (Small) (Chinna Vengayam)',
         price:70,
         description:'Red Onions ',
@@ -169,11 +162,11 @@ export const images=[
         category:'root',
     },
     {
-        title:'Plantain Flower (Vazhaipoo)',
+        title:'Onion (Vengayam)',
         price:25,
         description:'Red Onions ',
-        banner:'https://www.floraqueen.com/blog/wp-content/uploads/2020/01/shutterstock_696032743.jpg',
-        category:'flower',
+        banner:'https://www.nydailynews.com/resizer/BTX_xK-CVPTWFJFaQ8_tKBpqRfM=/1200x0/center/bottom/cloudfront-us-east-1.images.arcpublishing.com/tronc/YKLWDFKDVVCNHHB3DAYOOFLG7I.jpg',
+        category:'root',
     },
     {
         title:'Plantain Stem (Vazhaithandu)',
@@ -211,6 +204,13 @@ export const images=[
         category:'kaya',
     },
     {
+        title:'Sweet Potato (Sakkaravalli Kizhangu)',
+        price:30,
+        description:'Red Onions ',
+        banner:'https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/at%2Farchive%2F8812190bf4f724878a4520f2a60b48ff9d99798e',
+        category:'root',
+    },
+    {
         title:'Scarlet Gourd (Kovakkai)',
         price:25,
         description:'Red Onions ',
@@ -225,11 +225,11 @@ export const images=[
         category:'kaya',
     },
     {
-        title:'Sweet Potato (Sakkaravalli Kizhangu)',
-        price:30,
+        title:'Tomato (Thakkali)',
+        price:40,
         description:'Red Onions ',
-        banner:'https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/at%2Farchive%2F8812190bf4f724878a4520f2a60b48ff9d99798e',
-        category:'root',
+        banner:'https://3680ebd478ea504d0c91-fcdd7c10a736b671537f0d814c4bbb93.ssl.cf1.rackcdn.com/fresh-tomato-1046527.jpg',
+        category:'fruit'
     },
     {
         title:'Tapioca (Maravalli Kizhangu)',
@@ -239,18 +239,18 @@ export const images=[
         category:'root',
     },
     {
-        title:'Tomato (Thakkali)',
-        price:40,
-        description:'Red Onions ',
-        banner:'https://3680ebd478ea504d0c91-fcdd7c10a736b671537f0d814c4bbb93.ssl.cf1.rackcdn.com/fresh-tomato-1046527.jpg',
-        category:'fruit'
-    },
-    {
         title:'Yam (Karunai Kilangu)',
         price:75,
         description:'Red Onions ',
         banner:'https://i0.wp.com/www.yummytummyaarthi.com/wp-content/uploads/2013/02/IMG_6246-Copy.jpg?ssl=1',
         category:'root'
+    },
+    {
+        title:'Plantain Flower (Vazhaipoo)',
+        price:25,
+        description:'Red Onions ',
+        banner:'https://www.floraqueen.com/blog/wp-content/uploads/2020/01/shutterstock_696032743.jpg',
+        category:'flower',
     },
 
 ]
