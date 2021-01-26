@@ -1,0 +1,19 @@
+.gallery-card{
+    padding: 20px;
+    border: 1px solid black;
+}
+.gallery-banner{
+    margin: 5px;
+    height: 220px;
+    cursor: pointer;
+}
+.gallery-banner:hover{
+    box-shadow: 1px 1px 5px black;
+}
+
+@media screen and (max-width:960px){
+    .gallery-banner{
+        /* border: 1px solid red; */
+        height: 120px;
+    }
+}

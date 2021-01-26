@@ -1,9 +1,13 @@
 import React from 'react'
+import Card from './galleryCard'
+import SimpleReactLightBox from 'simple-react-lightbox'
 
 function Gallery() {
     return (
         <div>
-            GALLERY
+            <SimpleReactLightBox>
+                <Card/>
+            </SimpleReactLightBox>
         </div>
     )
 }
