@@ -1,0 +1,75 @@
+.btn{
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+.btn--lite{
+    background-color: #dbdada;
+    color: #424242;
+    border: 4px solid #dbdada;
+}
+.btn--lite:hover{
+    background-color: #424242;
+    color: #dbdada;
+    border: 4px solid #424242;
+    transition: all 0.3s ease-out;
+}
+.btn--dark{
+    background-color: #424242;
+    color: #dbdada;
+    border: 4px solid #424242;
+}
+.btn--dark:hover{
+    background-color: #dbdada;
+    color: #424242;
+    border: 4px solid #dbdada;
+    transition: all 0.3s ease-out;
+}
+.btn--outlineLite{
+    border: 4px solid #dbdada;
+    background: transparent;
+    color: #dbdada;
+}
+.btn--outlineLite:hover{
+    border: 4px solid #dbdada;
+    background: #dbdada;
+    color: #424242;
+    transition: all 0.3s ease-out;
+}
+.btn--outlineDark{
+    border: 4px solid #424242;
+    background: transparent;
+    color: #424242;
+}
+.btn--outlineDark:hover{
+    border: 4px solid #424242;
+    background: #424242;
+    color: #dbdada;
+}
+.btn--medium{
+    padding: 6px 20px;
+    font-size: 20px;
+}
+.btn--large{
+    padding: 6px 40px;
+    font-size: 26px;
+}
+.btn--small{
+    padding: 4px 8px;
+    font-size: 14px;
+    margin: 2px;
+    border: 2px solid #dbdada;
+}
+.btn--small:hover{
+    padding: 4px 8px;
+    font-size: 14px;
+    margin: 2px;
+    border: 2px solid #dbdada;
+}
+.active{
+    background-color: #dbdada;
+    color: #424242;
+}

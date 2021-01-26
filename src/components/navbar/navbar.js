@@ -8,7 +8,7 @@ function Navbar() {
     return (
         <div className='nav-main'>
             <div className='nav-logo'>
-                Veg Market <i class="fas fa-carrot"></i>
+                Veg Mania <i class="fas fa-carrot"></i>
             </div>
             <div className='nav-menu-logo' onClick={()=>setClicked(!clicked)}>
                 <i class={clicked? "fas fa-times":'fas fa-bars'}></i>

@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(243, 243, 236);
+}
+.product-container{
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    
+}
+.product-btns{
+    background-color: #363636;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:960px){
+    .product-btns{
+        padding: 5px;
+    }   
+}
