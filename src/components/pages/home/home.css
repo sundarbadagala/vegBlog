@@ -38,7 +38,7 @@
     .home-btns{
         display: flex;
         flex-direction: column ;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
     /* .btn{
         margin: 10px;
