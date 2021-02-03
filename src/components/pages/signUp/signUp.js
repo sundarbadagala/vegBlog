@@ -49,28 +49,76 @@ function SignUp() {
         <div className='form'>
             <form onSubmit={formik.handleSubmit} className='form-main'>
                 <div className='form-fn'>
-                    <label htmlFor='firstName'>First Name</label>
-                    <input type='text' name='firstName' value={formik.values.firstName} onChange={formik.handleChange} className={formik.errors.firstName ? 'invalid-input':'valid-input'}/><br/>
+                    <label htmlFor='firstName'>
+                        First Name
+                    </label>
+                    <input 
+                        type='text' 
+                        name='firstName' 
+                        value={formik.values.firstName} 
+                        onChange={formik.handleChange} 
+                        className={formik.errors.firstName ? 'invalid-input':'valid-input'}
+                    /><br/>
                 </div>
                 <div className='form-ln'>
-                    <label htmlFor='lastName'>Last Name</label>
-                    <input type='text' name='lastName' value={formik.values.lastName} onChange={formik.handleChange} className={formik.errors.lastName ? 'invalid-input':'valid-input'}/>
+                    <label htmlFor='lastName'>
+                        Last Name
+                    </label>
+                    <input 
+                        type='text' 
+                        name='lastName' 
+                        value={formik.values.lastName} 
+                        onChange={formik.handleChange} 
+                        className={formik.errors.lastName ? 'invalid-input':'valid-input'}
+                    />
                 </div>
                 <div className='form-num'>
-                    <label htmlFor='number'>Mobile Number</label>
-                    <input type='number' name='number' value={formik.values.number} onChange={formik.handleChange} className={formik.errors.number ? 'invalid-input':'valid-input'}/>
+                    <label htmlFor='number'>
+                        Mobile Number
+                    </label>
+                    <input 
+                        type='number' 
+                        name='number' 
+                        value={formik.values.number} 
+                        onChange={formik.handleChange} 
+                        className={formik.errors.number ? 'invalid-input':'valid-input'}
+                    />
                 </div>
                 <div className='form-ml'>
-                    <label htmlFor='mail'>E Mail</label>
-                    <input type='email' name='mail' value={formik.values.mail} onChange={formik.handleChange} className={formik.errors.mail ? 'invalid-input':'valid-input'}/>
+                    <label htmlFor='mail'>
+                        E Mail
+                    </label>
+                    <input 
+                        type='email' 
+                        name='mail' 
+                        value={formik.values.mail} 
+                        onChange={formik.handleChange} 
+                        className={formik.errors.mail ? 'invalid-input':'valid-input'}
+                    />
                 </div>
                 <div className='form-pw'>
-                    <label htmlFor='password'>Password</label>
-                    <input type='password' name='password' value={formik.values.password} onChange={formik.handleChange} className={formik.errors.password ? 'invalid-input':'valid-input'}/>
+                    <label htmlFor='password'>
+                        Password
+                    </label>
+                    <input 
+                        type='password' 
+                        name='password' 
+                        value={formik.values.password} 
+                        onChange={formik.handleChange} 
+                        className={formik.errors.password ? 'invalid-input':'valid-input'}
+                    />
                 </div>
                 <div className='form-cpw'>
-                    <label htmlFor='confirmPassword'>Confirm Password</label>
-                    <input type='password' name='confirmPassword' value={formik.values.confirmPassword} onChange={formik.handleChange}  className={formik.errors.confirmPassword ? 'invalid-input':'valid-input'}/>
+                    <label htmlFor='confirmPassword'>
+                        Confirm Password
+                    </label>
+                    <input 
+                        type='password' 
+                        name='confirmPassword' 
+                        value={formik.values.confirmPassword} 
+                        onChange={formik.handleChange}  
+                        className={formik.errors.confirmPassword ? 'invalid-input':'valid-input'
+                    }/>
                 </div>
                 <div className='form-error-msgs'>
                     {formik.touched.firstName && formik.errors.firstName ? formik.errors.firstName : null}
@@ -81,7 +129,12 @@ function SignUp() {
                     {formik.touched.confirmPassword && formik.errors.confirmPassword ? formik.errors.confirmPassword : null}
                 </div>
                 <div>
-                    <button type='submit' className='submit-btn'>SUBMIT</button>
+                    <button 
+                        type='submit' 
+                        className='submit-btn'
+                    >
+                        SUBMIT
+                    </button>
                 </div>
             </form>
         </div>
