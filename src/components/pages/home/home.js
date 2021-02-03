@@ -12,14 +12,14 @@ function Home() {
                 <div className='home-tag'>Be a Vegan, Proud to be Vegan</div>
                 <div className='home-btns'>
                     <Button
-                        buttonStyle='btn--outlineLite'
+                        buttonStyle='btn--outlineDark'
                         buttonSize='btn--large'
                         path='/products'
                     >
                     Get Started
                     </Button>
                     <Button
-                        buttonStyle='btn--lite'
+                        buttonStyle='btn--dark'
                         buttonSize='btn--large'
                         path='/sign'
                     >
