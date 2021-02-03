@@ -1,0 +1,14 @@
+@media screen and (max-width:960px){
+    ._1-wtg {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-top: 10px;
+    }
+    ._1lLZK {
+      font-size: 10px;
+      width: 50%;
+    }
+  }

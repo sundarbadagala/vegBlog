@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {items} from './aboutUsData'
 import { CardView } from 'react-card-with-image'
 import 'react-card-with-image/dist/index.css'
+import './aboutUs.css'
  
 const App = () => {
   const [height, setHeight]= useState('450px')
