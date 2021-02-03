@@ -29,16 +29,16 @@
         align-items: center;
     }
     .home-title{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .home-tag{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 25px;
     }
     .home-btns{
         display: flex;
         flex-direction: column ;
-        margin-bottom: 15px;
+        margin-bottom: 40px;
     }
     /* .btn{
         margin: 10px;

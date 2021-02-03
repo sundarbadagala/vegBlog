@@ -8,8 +8,8 @@ const App = () => {
   const [width, setWidth]= useState('450px')
   const adjustSize=()=>{
         if(window.innerWidth<= 960){
-            setHeight('300px')
-            setWidth('400px')
+            setHeight('100px')
+            setWidth('200px')
         }
     }
    useEffect(()=>{

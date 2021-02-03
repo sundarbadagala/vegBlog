@@ -58,14 +58,14 @@
     font-size: 26px;
 }
 .btn--small{
-    padding: 4px 8px;
-    font-size: 14px;
+    padding: 4px 6px;
+    font-size: 10px;
     margin: 2px;
     border: 2px solid #dbdada;
 }
 .btn--small:hover{
-    padding: 4px 8px;
-    font-size: 14px;
+    padding: 4px 6px;
+    font-size: 10px;
     margin: 2px;
     border: 2px solid #dbdada;
 }
