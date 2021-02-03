@@ -8,7 +8,7 @@ const App = () => {
   const [width, setWidth]= useState('450px')
   const adjustSize=()=>{
         if(window.innerWidth<= 960){
-            setHeight('100px')
+            setHeight('200px')
             setWidth('200px')
         }
     }
