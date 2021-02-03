@@ -10,7 +10,7 @@ const App = () => {
   const adjustSize=()=>{
         if(window.innerWidth<= 960){
             setHeight('200px')
-            setWidth('200px')
+            setWidth('400px')
         }
     }
    useEffect(()=>{
