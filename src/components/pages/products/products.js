@@ -87,8 +87,9 @@ function Products() {
             </div>
             <div className='product-container'>
                 {
-                    items.map(item => 
-                        <Card 
+                    items.map((item, index) => 
+                        <Card
+                            key={index} 
                             banner={item.banner}
                             title={item.title}
                             price={item.price}
