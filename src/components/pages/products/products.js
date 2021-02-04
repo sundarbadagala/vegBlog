@@ -39,7 +39,7 @@ function Products() {
                     handleClick={()=>setCategory('kaya')} 
                     btnActive={category==='kaya'?true:false}
                 >
-                    KAYA
+                    VEG
                 </Button>
                 <Button 
                     buttonStyle='btn--outlineLite' 
@@ -87,8 +87,9 @@ function Products() {
             </div>
             <div className='product-container'>
                 {
-                    items.map(item => 
-                        <Card 
+                    items.map((item, index) => 
+                        <Card
+                            key={index} 
                             banner={item.banner}
                             title={item.title}
                             price={item.price}

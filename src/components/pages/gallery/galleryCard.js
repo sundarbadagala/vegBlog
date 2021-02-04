@@ -9,7 +9,7 @@ function Card() {
             <SRLWrapper>
                 <div className='gallery-card'>
                     {
-                        images.map(item => <img src={item.banner} alt='' className='gallery-banner'/>)
+                        images.map((item, index) => <img key={index} src={item.banner} alt='' className='gallery-banner'/>)
                     }
                 </div>
             </SRLWrapper>

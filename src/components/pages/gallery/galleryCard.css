@@ -17,3 +17,9 @@
         height: 90px;
     }
 }
+@media screen and (max-width:390px){
+    .gallery-banner{
+        /* border: 1px solid red; */
+        height: 80px;
+    }
+}
