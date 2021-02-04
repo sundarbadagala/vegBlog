@@ -45,3 +45,23 @@
         margin: 5px;
     }
 }
+
+@media screen and (max-width:390px){
+    .card-main{
+        border: 1px solid rgb(160, 160, 160);
+        width: 150px;
+        height: 220px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        cursor: pointer;
+    }
+    .card-details{
+        /* border: 1px solid red; */
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        margin: 5px;
+    }
+}

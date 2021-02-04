@@ -57,6 +57,10 @@
     padding: 6px 40px;
     font-size: 26px;
 }
+.active{
+    background-color: #dbdada;
+    color: #424242;
+}
 .btn--small{
     padding: 4px 6px;
     font-size: 12px;
@@ -69,7 +73,16 @@
     margin: 1px;
     border: 2px solid #dbdada;
 }
-.active{
-    background-color: #dbdada;
-    color: #424242;
+@media screen and (max-width:390px){
+    .btn--small{
+        padding: 4px 6px;
+        font-size: 10px;
+        margin: 1px;
+        border: 2px solid #dbdada;
+    }
+    .btn--small:hover{
+        padding: 4px 6px;
+        font-size: 12px;
+        margin: 1px;
+    } 
 }
